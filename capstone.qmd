@@ -1,9 +1,9 @@
 ---
-title: "Capstone: [Your Capstone Title]"
-subtitle: "A one-sentence hook: what you built and who it helps."
+title: "Integrated Pipeline for Insights in Shelter & Housing Outcomes"
+subtitle: "We investigated what factors are associated with spped to enter emergency shelter, and positive exit outcomes"
 date: 2026-07-27
 image: projects/capstone/featured.svg
-categories: [capstone, machine-learning, R]
+categories: [capstone]
 toc: true
 ---
 
@@ -14,12 +14,14 @@ should read this one. Replace every bracketed placeholder, then delete this note
 
 ## The one-liner
 
-> We integrated **\[data sources\]** into **\[dataset\]** so that
-> **\[stakeholder\]** can **\[decision they can now make\]**.
+> We integrated application, case management, and federal reporting data so that
+> Church at the Park can has better understanding of what factors affect entry into, and exit from, emergency shelter.
 
-**Role:** \[e.g. I led the data pipeline and validation.\]
-**Team:** \[solo, or name + link teammates.\]
-**Repo:** [github.com/your_github_username/your-capstone-repo](https://github.com/your_github_username/your-capstone-repo)
+**Role:** I lead data wrangling and survival analysis.
+
+**Team:** Jon Garrow, Mike Kimmell, Summer Tucker
+
+**Repo:** [https://github.com/stuckerWU/data510-capstone](https://github.com/stuckerWU/data510-capstone)
 
 ## The question
 
@@ -34,8 +36,7 @@ engineering story — the part the repo link backs up.
 
 ## The approach
 
-Your method at portfolio depth: shorter than your M4 write-up, longer than a
-tweet. What did you try, what did you keep, and why.
+Your method at portfolio depth: shorter than your M4 write-up, longer than atweet. What did you try, what did you keep, and why.
 
 ## Findings
 
@@ -80,5 +81,5 @@ rely on `freeze`) on any chunk that needs data the public repo does not contain.
 
 ## Dig deeper
 
-- 📦 **Code & pipeline:** [your-capstone-repo](https://github.com/your_github_username/your-capstone-repo)
+- 📦 **Code & pipeline:** [https://github.com/stuckerWU/data510-capstone](https://github.com/stuckerWU/data510-capstone)
 - 📊 **Slides / poster:** \[link if you have one\]
