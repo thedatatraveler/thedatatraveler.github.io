@@ -112,8 +112,7 @@ mentioned in a case note.
 and “benefits” were also
 associated with longer stays.
 
-(projects/capstone/hm_prov.png){fig-alt="Placeholder capstone figure" width="90%"}
-
+![One of our key results](projects/capstone/hm_prov.png){fig-alt="Placeholder capstone figure" width="90%"}
 
 ## The full write-up
 
