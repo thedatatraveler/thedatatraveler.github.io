@@ -10,8 +10,8 @@ about:
 ## Hi, I'm Summer👋
 
 I came to data science because I realized that any time I got the chance to work with data, 
-the work was always fun, and the time would melt away as I wrangled and analyzed it. 
-Data science keeps my interst because it appeals to my needd to research, investigate, and understand. 
+the work was always fun, and the time would melt away as I wrangled and analyzed the data. 
+Data science keeps my interest because it appeals to my need to research, investigate, and understand. 
 I love having the opportunity to leverage those skills to help others answer questions. 
 
 At Willamette my focus has been on data engineering and visualizations. My [capstone](capstone.qmd) is where that comes
@@ -25,8 +25,7 @@ together.
 
 ### Get in touch
 
-I'm happy to talk about \[data work, collaborations, roles\].
-
+Happy to chat about events, networking, and ways to volunteer my data skills!
 - ✉️ [stucker@willamette.edu](mailto:stucker@willamette.edu)
 - 💼 [LinkedIn](https://www.linkedin.com/in/summer-tucker-4250865b/)
 - 💻 [GitHub](https://github.com/thedatatraveler)
