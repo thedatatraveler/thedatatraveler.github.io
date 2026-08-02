@@ -1,7 +1,7 @@
 ---
-title: "Blitz Bearcat"
+title: "Summer Tucker"
 subtitle: "M.S. Data Science Candidate · Willamette University"
-image: images/profile.png
+image: images/me.jpg
 about:
   template: trestles
   image-shape: round
@@ -9,29 +9,30 @@ about:
   links:
     - icon: github
       text: GitHub
-      href: https://github.com/your_github_username
+      href: https://github.com/thedatatraveler
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/your_github_username
+      href: https://www.linkedin.com/in/summer-tucker-4250865b/
     - icon: envelope
       text: Email
-      href: mailto:you@willamette.edu
+      href: mailto:stucker@willamette.edu
     - icon: file-earmark-pdf
       text: Resume
       href: resume.qmd
 ---
 
-I build data pipelines and turn messy data into decisions people can act on.
+I love to wrangle data and figure out how data pipelines can be built to answer intriguing questions!
+
 Right now I am finishing my M.S. in Data Science at **Willamette University**,
-where my capstone [predicts \[your one-line problem\]](capstone.qmd) for
-\[your stakeholder\].
+where my capstone investigates factors associated with engagement with emergency shelter programs
+established by a local organization, Church at the Park.
 
-I care about \[topics you actually care about — e.g. housing, health equity,
-sports analytics\], reproducible workflows, and explaining a model to the person
-who has to trust it.
+I care about figuring out how to best leverage data to help organizations make informed decisions and innovations. 
 
-**Currently looking for** \[data analyst / data scientist / ML engineer\] roles
-starting \[month year\]. [Get in touch](about.qmd) or grab my
+**Currently looking for** Not looking for a new role at this time, but always looking for opportunities and events to 
+connect with other data enthusiasts! 
+
+[Get in touch](about.qmd) or grab my
 [resume](resume.qmd).
 
 ---
@@ -41,19 +42,19 @@ starting \[month year\]. [Get in touch](about.qmd) or grab my
 ::: {.g-col-12 .g-col-md-4}
 ### 🎓 Education
 M.S. Data Science
-Willamette University, 2026
+Willamette University, 2027
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ### 🛠️ Toolkit
 R · Python · SQL
-Quarto · Git · \[add yours\]
+Quarto · Git 
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ### 📍 Based in
 Salem, OR
-Open to \[remote / relocation\]
+Open to remote work, work in Salem or Portland area.
 :::
 
 :::

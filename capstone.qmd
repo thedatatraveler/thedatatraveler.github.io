@@ -1,84 +1,128 @@
 ---
-title: "Capstone: [Your Capstone Title]"
-subtitle: "A one-sentence hook: what you built and who it helps."
+title: "Integrated Pipeline for Insights in Emergency shelter & Housing Outcomes"
+subtitle: "We investigated what factors are associated with wait time to to enter emergency shelter, time in shelter, and positive exit outcomes"
 date: 2026-07-27
 image: projects/capstone/featured.svg
-categories: [capstone, machine-learning, R]
+categories: [capstone]
 toc: true
 ---
 
-::: {.callout-note appearance="simple"}
-This is the anchor of your portfolio. A hiring manager who reads only one page
-should read this one. Replace every bracketed placeholder, then delete this note.
-:::
 
 ## The one-liner
 
-> We integrated **\[data sources\]** into **\[dataset\]** so that
-> **\[stakeholder\]** can **\[decision they can now make\]**.
+> We integrated application, case management, and federal reporting data so that
+> Church at the Park can has better understanding of what factors affect entry into, and exit from, emergency shelter.
 
-**Role:** \[e.g. I led the data pipeline and validation.\]
-**Team:** \[solo, or name + link teammates.\]
-**Repo:** [github.com/your_github_username/your-capstone-repo](https://github.com/your_github_username/your-capstone-repo)
+**Role:** I lead data wrangling for applications and survival analysis, and was team lead.
+
+**Team:** Jon Garrow, Mike Kimmell, Summer Tucker
+
+**Repo:** [https://github.com/stuckerWU/data510-capstone](https://github.com/stuckerWU/data510-capstone)
 
 ## The question
 
-What problem were you solving, and why does it matter to a real stakeholder?
-Two or three sentences. No jargon a hiring manager would have to look up.
+Church at the Park’s (C@P) program data, including shelter and
+housing applications, demographics, assessments, and case notes
+live in 3 disconnected systems. In this project, we explored how the
+data can be joined together to provide insights on program
+delivery, average times post-application and in stays, and what is
+predictive of positive exits.
+Through this work we hope to help Church at the Park’s staff better
+understand their program outcomes and advocate for increased
+resources that will lead to more community benefit. 
+
+Our project investigates the following questions:
+
+● Can we construct a sustainable data engineering pipeline that
+integrates C@P’s 3 program datasets?
+
+● What insights can we derive from integrated data to improve
+service delivery and support decision-making? Specifically:
+
+  - Are there factors that are correlated to the average length of
+wait to get into shelter, and the average stay in shelter?
+
+  - Are there factors that are correlated to whether a participant
+is successful getting into shelter, more likely to return to C@P
+for services, or contribute to successful exit from emergency
+shelter?
 
 ## The data
 
-Where the data came from, how much of it, and the one hard thing about it
-(missingness, joins across sources, scale, privacy). This is your data
-engineering story — the part the repo link backs up.
+Our data came directly from C@P, provided to us with their permission. We integrated three data sources to conduct our analysis:
+
+● C@P’s application platform
+
+● Case notes from C@P's case management platform
+
+● Outcome information for shelter stays 
+
+These sources were combined to create two datasets for analysis: an emergency shelter stay dataset (1,108 rows) and an
+application data set (5,393 rows).
 
 ## The approach
 
-Your method at portfolio depth: shorter than your M4 write-up, longer than a
-tweet. What did you try, what did you keep, and why.
+We took two approaches to analyzing CAP's research question:
+
+(1) Survival analysis: A statistical approach to evaluate how long
+participants take to enter and exit shelter, and explore which
+variables modify the time it takes to enter or exit. 
+This analysis provided us insights into what factors affect how long a participant waits to get into shelter, or stays in shelter. 
+
+(2) Machine learning: We used XGBoost, amachine learning algorithm, to examine qualities that
+lead to successful entry to shelter, or successful successful exit
+from shelter. 
+This analysis provided us insights on predicting successful entry into shelter, or exiting to a positive housing outcome. Our model for 
+entry into shelter was not very predictive, but we found some success in predicting exit to a positive housing outcome.
+
 
 ## Findings
 
-Lead with your best figure or your architecture diagram.
+We found multiple factors affect the timeframes to get into, or exit, shelter. 
 
-![Replace with your key result or system diagram.](projects/capstone/featured.svg){fig-alt="Placeholder capstone figure" width="90%"}
+*Specific circumstances or traits of the participant*
 
-State the finding in plain language, then the caveat. Sparse and true beats
-full and shaky.
+We found notable differences in time spent in or waiting for
+shelter depending on:
+
+● Shelter location
+
+● Whether the participant has
+health coverage
+
+● Gender
+
+● Age
+
+*Level of engagement in case management.*
+
+Our data sources include case management notes that summarize assistance
+participants were receiving from a case manager. We found multiple variables where more
+engagement appears associated with longer stays in shelter.
+
+Those factors include:
+
+● The count of appointments,
+and the count of the number
+of times appointment was
+mentioned in a case note.
+
+● Higher mentions of the words
+“medication”, “identification”
+and “benefits” were also
+associated with longer stays.
+
+(projects/capstone/hm_prov.png){fig-alt="Placeholder capstone figure" width="90%"}
+
 
 ## The full write-up
 
-Pick the option that matches where your write-up lives, keep one, delete the rest.
+[Download the write-up (PDF)](projects/capstone/final_writeup_placeholder.pdf){.btn .btn-primary}
 
-::: {.panel-tabset}
-
-### A · Native Quarto
-
-If your write-up is a `.qmd`, copy it into `projects/capstone/index.qmd` and
-link it, or fold its sections directly into this page. Set `eval: false` (or
-rely on `freeze`) on any chunk that needs data the public repo does not contain.
-
-### B · Embedded PDF
-
-```markdown
-[Download the write-up (PDF)](projects/capstone/writeup.pdf){.btn .btn-primary}
-
-<iframe src="projects/capstone/writeup.pdf" width="100%" height="800px"
+<iframe src="projects/capstone/final_writeup_placeholder.pdf" width="100%" height="800px"
   style="border: 1px solid #ddd;"></iframe>
-```
 
-### C · Published Google Doc
-
-```markdown
-[Read the full write-up](https://docs.google.com/document/d/e/XXXX/pub){.btn .btn-primary}
-
-<iframe src="https://docs.google.com/document/d/e/XXXX/pub?embedded=true"
-  width="100%" height="800px" style="border: 1px solid #ddd;"></iframe>
-```
-
-:::
 
 ## Dig deeper
 
-- 📦 **Code & pipeline:** [your-capstone-repo](https://github.com/your_github_username/your-capstone-repo)
-- 📊 **Slides / poster:** \[link if you have one\]
+- 📦 **Code & pipeline:** [https://github.com/stuckerWU/data510-capstone](https://github.com/stuckerWU/data510-capstone)

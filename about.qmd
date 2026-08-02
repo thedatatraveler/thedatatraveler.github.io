@@ -1,35 +1,32 @@
 ---
 title: "About"
-image: images/profile.png
+image: images/me.jpg
 about:
   template: solana
   image-shape: round
   image-width: 12em
 ---
 
-## Hi, I'm Blitz 👋
+## Hi, I'm Summer👋
 
-The home page is the ten-second version. This is the longer story — write it in
-your own voice.
+I came to data science because I realized that any time I got the chance to work with data, 
+the work was always fun, and the time would melt away as I wrangled and analyzed it. 
+Data science keeps my interst because it appeals to my needd to research, investigate, and understand. 
+I love having the opportunity to leverage those skills to help others answer questions. 
 
-I came to data science from \[your path: a major, a job, a question that would
-not leave you alone\]. What keeps me here is \[the part of the work you genuinely
-enjoy — the modeling, the wrangling, the moment a chart makes something click\].
-
-At Willamette my focus has been \[your emphasis: forecasting, causal inference,
-NLP, data engineering, ...\]. My [capstone](capstone.qmd) is where that comes
+At Willamette my focus has been on data engineering and visualizations. My [capstone](capstone.qmd) is where that comes
 together.
 
 ### Beyond the terminal
 
-- 🌲 \[Something human — a hobby, a place, a cause.\]
-- 📚 \[Currently reading / learning / building.\]
-- 🎯 \[What you want to be doing in two years.\]
+- 🌲 I love doing arts and crafts and cuddling my cats!
+- 📚 I recently read the Odyssey for the first time and want to keep reading mroe classical literature.
+- 🎯 I'd love to be more involved in data governance and planning data engineering pipelines. 
 
 ### Get in touch
 
 I'm happy to talk about \[data work, collaborations, roles\].
 
-- ✉️ [you@willamette.edu](mailto:you@willamette.edu)
-- 💼 [LinkedIn](https://linkedin.com/in/your_github_username)
-- 💻 [GitHub](https://github.com/your_github_username)
+- ✉️ [stucker@willamette.edu](mailto:stucker@willamette.edu)
+- 💼 [LinkedIn](https://www.linkedin.com/in/summer-tucker-4250865b/)
+- 💻 [GitHub](https://github.com/thedatatraveler)

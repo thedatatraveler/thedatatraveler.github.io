@@ -5,42 +5,32 @@ toc: true
 
 [📄 Download PDF](assets/resume.pdf){.btn .btn-primary role="button"}
 
-::: {.callout-note appearance="simple"}
-Drop your typeset resume at `assets/resume.pdf` and it appears below. Any PDF
-works tonight — export from Word, Google Docs, or a `vitae`/LaTeX template. The
-web summary below is what recruiters skim; the PDF is what they download.
-:::
-
-<iframe src="assets/resume.pdf" width="100%" height="800px"
-  style="border: 1px solid #ddd; margin-top: 1rem;">
-</iframe>
-
 ## Education
 
-**M.S. Data Science** — Willamette University, Salem, OR *(2026)*
-**B.S. \[Your Major\]** — \[Your University\], \[City\] *(\[year\])*
+**M.S. Data Science** — Willamette University, Salem, OR *(Expected graduation 2027)*
+
+**B.A. Environmental Science** — Willamette University, Salem, OR, 2013 
 
 ## Skills
 
 | Area | Tools |
 |------|-------|
 | **Languages** | R, Python, SQL |
-| **Data & ML** | \[tidyverse / pandas, scikit-learn, ...\] |
-| **Workflow** | Git, Quarto, \[Docker, cloud, ...\] |
+| **Data & ML** | tidyverse, pandas |
+| **Workflow** | Git, Quarto, Docker, Airflow |
 | **Communication** | Technical writing, data visualization |
 
-## Experience
+## Current experience
 
-**\[Job Title\]** — \[Organization\], \[Location\] *(\[dates\])*
+**Research Analyst** — Oregon Department of Consumer and Business Services, Salem, OR, April 2026 - present
 
-- Accomplishment framed as impact, not a task description.
-- Another accomplishment with a number in it if you have one.
+- Created a new R program to translate a pre-existing program in SAS. This recreation allows for leveraging more advanced capabilities of R markdown language to generate a ready to go Word report, and eliminates manual copy pasting. 
+- Collaborated with internal stakeholders to develop a new report that captures outcomes for injured workers.
 
 ## Projects
 
-**\[Capstone Title\]** — see the [Capstone page](capstone.qmd) for the full story.
+**Emergency Shelter & Housing Outcomes - Factors for success** — see the [Capstone page](capstone.qmd) for the full story.
 
-- One line on the problem and your role.
-
-*Placeholders in brackets are fine while you build. Replace them with real,
-defensible entries as they materialize — sparse and true beats full and shaky.*
+In this project, we explored how Church at the Park's program data could be joined together to provide insights on program
+delivery, average times post-application and in stays, and what is predictive of positive exits. As a team member, and project owner lead,
+I specialized in analyzing the application data and generating the survival analyses used. 
